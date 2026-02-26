@@ -2,10 +2,5 @@
     margin: 0 !important;
     padding: 0;
     box-sizing: border-box;
+    min-height: 100vh;
 }
-
-h1 {
-    color: rgb(204, 12, 12) !important; 
-    text-align: center;
-}
-
