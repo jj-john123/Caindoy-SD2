@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV. Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+
+        <!-- NAVBAR START -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold text-dark" href="#">JLF. Caindoy</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Tools</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <!-- NAVBAR END -->
+
+
+    <!-- HOME START  -->
+    <section class="home d-flex align-items-center pt-3" style="height: 100vh;" id="home">
+        <div class="container text-center">
+
+            <h1 class="display-1 fw-bold">Welcome to my Portfolio</h1>
+            <h1 class="display-9 fw-bold">Hi, I'm John Leyfranks B. Caindoy</h1>
+            <p class="lead">A computer engineering developer student since 2023 to 2026</p>
+            <!-- EX. na link     <a href="#" class="btn btn-primary btn-lg mt-3">View My Work</a>      -->
+        </div>
+    </section> 
+    <!-- HOME END -->
+
+
+    <!-- About Start -->
+    <section id="about" class="bg-primary text-light text-center text-md-start p-5">
+        <div id="about-row " class="row align-items-center justify-content-center g-4">
+            <div id="about-col-1" class="col-md-6 text-center text-md-start">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt nisi et sem eleifend aliquet. Fusce interdum rutrum ipsum, non feugiat risus consectetur eu. Nulla sodales orci et mi ultrices, at mattis leo gravida. Curabitur non dapibus orci.</p>
+            </div>
+            <div id="about-col-2" class="col-md-6 text-center text-md-end">
+                <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmdDc2eYyNwieSusnEpsBA5wAJvhxSnOVwZr3rcN_VfA&s " class="img-fluid rounded-4">
+            </div>
+        </div>
+    </section>
+    <!-- About End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <--  CONTACT ME START -->
+    <div class="d-flex p-3 p-md-5 flex-column justify-content-center align-items-center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3853.22552729076!2d120.6976289!3d15.035637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396f76e2c07061b%3A0xcdd6330abec18cf9!2sUniversity%20of%20the%20Assumption!5e0!3m2!1sen!2sph!4v1772707081991!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h1 class="display-3 fw-bold text-primary mb-5">Contact Me</h1>
+
+        <div class="mb-3 p-3 p-md-3 col-12 col-md-4 bg-primary rounded-3 text-light">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+            <button class="btn bg-light text-dark my-3 w-100" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit</button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Message</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Your have successfully sent an email. Thank you!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT ME END -->
+
+
+    <!-- Footer Start-->
+        <footer id="footer " class="bg-dark text-light text-center d-flex flex-row justify-content-center p-3 gap-2">
+            <div>&copy;  2026 My Website.</div>
+            <div>|</div>
+            <div>All rights reserved.</div>
+        </footer>
+    <!-- Footer  End-->
+
+
+
+
+<!-- MAP -->
+<!--      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3853.22552729076!2d120.6976289!3d15.035637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396f76e2c07061b%3A0xcdd6330abec18cf9!2sUniversity%20of%20the%20Assumption!5e0!3m2!1sen!2sph!4v1772707081991!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>             -->
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
