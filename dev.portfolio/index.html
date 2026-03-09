@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DEV. Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
 
@@ -53,111 +54,80 @@
 
 
     <!-- About Start -->
-    <section id="about" class="bg-primary text-light text-center text-md-start p-5">
-        <div id="about-row " class="row align-items-center justify-content-center g-4">
-            <div id="about-col-1" class="col-md-6 text-center text-md-start">
-                <h2>About Us</h2>
-                <p>I am an aspiring developer who dreams of building modern web applications and innovative technology solutions. My goal is to become a professional software developer who can create useful systems that improve people's lives and businesses.</p>
-            </div>
-            <div id="about-col-2" class="col-md-6 text-center text-md-">
-                <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmdDc2eYyNwieSusnEpsBA5wAJvhxSnOVwZr3rcN_VfA&s " class="img-fluid rounded-4">
-            </div>
-        </div>
-    </section>
+    <div class="container-fluid">
+        <div class="row bg-secondary justify-content-center align-items-center py-4 py-lg-5" id="landing">
+
+    <div class="col-10 col-md-3 p-3 py-lg-5 text-center">
+        <img src="https://d2kdkfqxnvpuu9.cloudfront.net/images/thumb/47471.jpg?1319388273" 
+            class="rounded-circle border border-dark img-fluid">
+    </div>
+
+    <div class="col-md-7 col-lg-5 text-white ps-md-5 py-lg-5">
+        <h1 class="mt-2 text-center text-md-start" id="myName">Charles Babbage</h1>
+        <h3 class="my-3 text-center text-md-start" id="myTitle">Full Stack Web Developer</h3>
+
+        <p class="text-justify">
+        Charles Babbage KH FRS (26 December 1791 - 18 October 1871) was an English polymath. 
+        A mathematician, philosopher, inventor and mechanical engineer, Babbage originated the 
+        concept of a digital programmable computer. Babbage is considered by some to be the 
+        "father of the computer".
+        </p>
+    </div>
+
+    </div>
+</div>
     <!-- About End -->
 
 
 
 <!-- Projects -->
-    <section id="projects" class="bg">
-        <div>
-            <div>
+    <h1 class="mt-5 mb-1 text-center">My Projects</h1>
 
-            </div>
-        </div>
-    </section>
+<div class="container my-5" id="projects">
+    <div class="row justify-content-center g-4">
 
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!--  CONTACT ME START -->
-    <div class="d-flex p-3 p-md-5 align-middle flex-column justify-content-center align-items-center">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3853.22552729076!2d120.6976289!3d15.035637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396f76e2c07061b%3A0xcdd6330abec18cf9!2sUniversity%20of%20the%20Assumption!5e0!3m2!1sen!2sph!4v1772707081991!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <h1 class="display-3 fw-bold text-primary mb-5">Contact Me</h1>
-
-        <div class="mb-3 p-3 p-md-3 col-12 col-md-4 bg-primary rounded-3 text-light">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-
-            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-
-            <button class="btn bg-light text-dark my-3 w-100" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit</button>
-        </div>
-
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Message</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    Your have successfully sent an email. Thank you!
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-                </div>
+    <div class="col-md-3">
+        <div class="card h-100">
+        <img src="https://image.freepik.com/free-vector/ordering-goods-online-internet.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title">E-Commerce</h5>
+                <p class="card-text">Online ordering system project.</p>
             </div>
         </div>
     </div>
 
-    <!-- CONTACT ME END -->
+    <div class="col-md-3">
+        <div class="card h-100">
+            <img src="https://www.bibguru.com/guides/img/mla-blog-post-citation-400x400.png" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Blog</h5>
+                <p class="card-text">Personal blogging website.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card h-100">
+            <img src="https://images-platform.99static.com/" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Online Booking System</h5>
+                <p class="card-text">Reservation web application.</p>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+    </div>
+</div>
 
 
-
-
-
-
-
-
-
+<!--  CONTACT ME START -->
 
 <div class="container mb-5 text-dark">
     <div class="row justify-content-center">
         <h1 class="text-center my-5" id="contact">Contact</h1>
 
-        <!-- Visit Us -->
+        
         <div class="col-12 col-md-6 my-4">
             <h4 class="text-center my-4">Visit Us</h4>
 
@@ -166,7 +136,7 @@
             </div>
         </div>
 
-        <!-- Message Us -->
+
         <div class="col-12 col-md-6 my-4">
             <h4 class="text-center my-4">Message Us</h4>
 
@@ -175,7 +145,7 @@
                     <label class="form-label">Full Name</label>
                     <input type="text" class="form-control">
                 </div>
-
+                
                 <div class="mb-3">
                     <label class="form-label">Email Address</label>
                     <input type="email" class="form-control">
@@ -193,6 +163,7 @@
     </div>
 </div>
 
+<!-- CONTACT ME END -->
 
 
 
