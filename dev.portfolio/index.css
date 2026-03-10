@@ -4,9 +4,30 @@
     box-sizing: border-box;
 }
 
-.bg-primary {
-    --bs-bg-opacity: 1;
-    background-color: rgb(74, 76, 78) !important;
+#home{
+    height: 100vh;
+    background-image: url("./picture/1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.home.lead.p {
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+#about{
+    height: 100vh;
+    background-image: url("./picture/Aesthetic-Wallpaper-HD-Pastel-Color.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .card-img-top{
