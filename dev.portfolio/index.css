@@ -4,7 +4,28 @@
     box-sizing: border-box;
 }
 
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: rgb(74, 76, 78) !important;
+}
+
 .card-img-top{
     height:200px;
     object-fit:cover;
 }
+
+.card-img-top{
+    height:200px;
+    object-fit:cover;
+}
+
+.tool-card{
+border-radius:20px;
+transition:0.3s;
+}
+
+.tool-card:hover{
+transform:translateY(-10px);
+box-shadow:0 10px 30px rgba(209, 5, 202, 0.6);
+}
+
