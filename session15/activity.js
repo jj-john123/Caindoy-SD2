@@ -15,4 +15,6 @@ alert("Temperature in Kelvin: " + kelvin);
 
 let radius = parseFloat(prompt("Enter the radius you want to use for the circle: "));
 let area =  3.14159 * Math.pow(radius, 2);
-alert("Area of the circle: " + area.toFixed(2));
+    alert("Area of the circle: " + area.toFixed(2));
+    alert("Area of the circle: " + area.toFixed(2));
+
