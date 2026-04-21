@@ -98,12 +98,11 @@ function Pokemon(name, level, health, mana){
     this.mana = mana;
 
     this.tackle = function(target) {
-        let damage = 20;
-        console.log(`${this.name} used tackle attack`);
+        let damage = 40;
+        console.log(`${this.name} used Tackle!`);
         target.health -= damage;
         this.mana += 40;
-        
-        //console.log(`${this.name}. mana: ${this.mana}. ${target.name} health: ${target.health}`);
+        console.log(`${this.name}. mana: ${this.mana}. ${target.name} health: ${target.health}`);
     }
 
     this.useHealthPotion = function() {
@@ -147,19 +146,19 @@ function Pokemon(name, level, health, mana){
 }
 
 
-//potion
-    this.usePotion = function() {
-        if (this.health < 500) {
-            this.health += 150;
-            if (this.health > 500) {
-                this.health = 500;
-            }
-            console.log(`${this.name} used a health potion! Health: ${this.health}`);
-        } else {
-            console.log(`${this.name} 's health is already at maximum!`);
-        }
-    }
-//
+// //potion
+//     this.usePotion = function() {
+//         if (this.health < 500) {
+//             this.health += 150;
+//             if (this.health > 500) {
+//                 this.health = 500;
+//             }
+//             console.log(`${this.name} used a health potion! Health: ${this.health}`);
+//         } else {
+//             console.log(`${this.name} 's health is already at maximum!`);
+//         }
+//     }
+// //
 
 let pikachu = new Pokemon("Pikachu", 5, 100, 100);
 console.log(pikachu);
